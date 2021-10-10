@@ -89,7 +89,7 @@ s44=[]
 
 os.chdir(r"C:\\Temp\\dia10")
 flag=1
-n=500
+n=50
 tim=0
 k=0     
 while flag<=n:
