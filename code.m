@@ -2,8 +2,8 @@
 dia = 40;
  N = 2;  %%% number of simulations
 
-a11 = textfile('C:\Users\Athiest69\IIST\Summer 21\Internship\gowtham Bhaiyya\a11.txt');
-a12 = textfile('C:\Users\Athiest69\IIST\Summer 21\Internship\gowtham Bhaiyya\a12.txt');
+a11 = textfile('C:\Users\Athiest69\IIST\Summer 21\Internship\D=40\a11.txt');
+a12 = textfile('C:\Users\Athiest69\IIST\Summer 21\Internship\D=40\a12.txt');
 % a11 = 125*3;
 % a12=50*3;
 
@@ -49,10 +49,10 @@ end
 % zz2 = z2*500;
 %%%%input xx,yy,elst value of all simulations
 for i =1:N 
-    fx =[ 'C:\Users\Athiest69\IIST\Summer 21\Internship\gowtham Bhaiyya\xx' num2str(i) '.txt'];  %%% add path of xx yy u1 u2 values
-    fy =[ 'C:\Users\Athiest69\IIST\Summer 21\Internship\gowtham Bhaiyya\yy' num2str(i) '.txt'];
-    fu =[ 'C:\Users\Athiest69\IIST\Summer 21\Internship\gowtham Bhaiyya\rf1' num2str(i) '.txt'];
-    fv =[ 'C:\Users\Athiest69\IIST\Summer 21\Internship\gowtham Bhaiyya\rf2' num2str(i) '.txt'];
+    fx =[ 'C:\Users\Athiest69\IIST\Summer 21\Internship\D=40\xx' num2str(i) '.txt'];  %%% add path of xx yy u1 u2 values
+    fy =[ 'C:\Users\Athiest69\IIST\Summer 21\Internship\D=40\yy' num2str(i) '.txt'];
+    fu =[ 'C:\Users\Athiest69\IIST\Summer 21\Internship\D=40\rf1' num2str(i) '.txt'];
+    fv =[ 'C:\Users\Athiest69\IIST\Summer 21\Internship\D=40\rf2' num2str(i) '.txt'];
     
 
 x = textfile(fx);
