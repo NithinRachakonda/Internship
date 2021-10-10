@@ -87,7 +87,7 @@ s22=[]
 s33=[]
 s44=[]
 
-os.chdir(r"C:\\Temp\\dia10")
+os.chdir(r"C:\Users\Athiest69\IIST\Summer 21\Internship\D=40")
 flag=1
 n=50
 tim=0
@@ -494,7 +494,7 @@ while flag<=n:
     
     
     
-    odbPath='C:\\Temp\\dia10\\'+job_name+'.odb'                   ##Path
+    odbPath='C:\Users\Athiest69\IIST\Summer 21\Internship\D=40\\'+job_name+'.odb'                   ##Path
     odb=session.openOdb(odbPath)
     lastFrame=odb.steps['Step-1'].frames[-1]
     disp=lastFrame.fieldOutputs['U']                      ##S-stress ##U-displacement
