@@ -1,19 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue May 11 09:11:24 2021
+Created on Tue August 11 09:11:24 2021
 
-@author: DELL
+@author: Nithin Rachakonda
 """
-
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Apr 29 10:34:14 2021
-
-@author: DELL
-"""
-
-
-
 # 	numpy.savetxt('xcenp'+repr(flag)+val+'.txt',xcenp,fmt='%f')
 # 	numpy.savetxt('ycenp'+repr(flag)+val+'.txt',ycenp,fmt='%f')
 # 	numpy.savetxt('elementnumber'+repr(flag)+val+'.txt', nel, fmt='%d')
